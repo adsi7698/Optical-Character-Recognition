@@ -8,7 +8,7 @@ import run_classify
 # Designing window for prediction 
 def predict():
     global predict_screen
-
+    print(predict_screen)
     predict_screen = Toplevel(main_screen)
     predict_screen.title("Predict The Character")
     predict_screen.geometry("300x300")
