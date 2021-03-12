@@ -18,7 +18,6 @@ def predict():
 
 def prediction():
 	s = run_classify.run_class()
-	print(s)
 	character, accuracy = s.split(',')
 
 	Label(predict_screen, text=character+" is the predicted output", width="300", height="2", font=("Calibri", 13)).pack()
