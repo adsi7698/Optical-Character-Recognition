@@ -9,7 +9,7 @@ import run_classify
 def predict():
     global predict_screen
     print("aditya sinha")
-    print("adis")
+    print("adi")
     predict_screen = Toplevel(main_screen)
     predict_screen.title("Predict The Character")
     predict_screen.geometry("300x300")
